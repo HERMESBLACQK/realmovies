@@ -6,7 +6,7 @@
       class="block py-2 px-3 md:p-4 text-white font-bold uppercase"
       ><span class="font-semibold">
         <span class="text-white">Real</span>
-        <span class="text-primary">Strea</span>
+        <span class="text-primary">Stream</span>
       </span></RouterLink
     >
     <!-- button -->
