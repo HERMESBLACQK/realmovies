@@ -26,12 +26,12 @@
           </button>
         </div>
         <!-- User Image -->
-        <div class="flex gap-4 items-center">
+        <!-- <div class="flex gap-4 items-center">
           <img
             class="h-10 w-10 rounded-full" 
             src="../assets/me.jpg" contain
           />
-        </div>
+        </div> -->
       </div>
 
       <!-- carousel -->
