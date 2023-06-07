@@ -33,7 +33,7 @@
       <img class="w-8 h-8" src="../../assets/logo.jpg" alt="logo" />
       <span class="text-2xl font-semibold">
         <span class="text-white">Real</span>
-        <span class="text-primary">Stream</span>
+        <span class="text-primary">Steams</span>
       </span>
     </RouterLink>
     <!-- nav  -->
