@@ -91,7 +91,7 @@
     </section>
 
     <!-- Pagination -->
-    <section class="mt-16 mb-5">
+    <section class="mt-16 mb-0 pb-4">
       <Pagination
         :total-page="totalPage"
         :current-page="currentPage"

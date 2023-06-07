@@ -11,7 +11,7 @@
     <!-- Footer -->
   </div>
   <footer
-    class="w-full p-2 bg-dark border-t border-gray-darken text-sm text-primary flex justify-between items-center"
+    class="w-full p-2 bg-dark border-t border-gray-darken text-sm text-primary flex justify-between items-center mt-0"
   >
     <p><font-awesome-icon :icon="['far', 'copyright']" /> 2023 HermesMedia.</p>
     <ul class="flex flex-wrap gap-1">

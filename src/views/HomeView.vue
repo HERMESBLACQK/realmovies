@@ -82,7 +82,7 @@
       </div>
 
       <!-- Popular-->
-      <div class="mt-10 relative">
+      <div class="my-10 relative">
         <div class="text-white md:text-2xl px-2">
           <span class="font-semibold">Popular</span>
         </div>
