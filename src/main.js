@@ -12,6 +12,9 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, far, fab);
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 import "vue-toastification/dist/index.css";
 createApp(App)
