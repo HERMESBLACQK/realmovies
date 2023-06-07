@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-row my-10">
+  <div class="flex flex-row mt-8">
     <div class="w-11/12 mx-auto">
-      <div class="flex justify-between !px-2">
+      <div class="flex justify-between !px-2 mt-2">
         <div class="flex text-gray-lighten gap-2">
           <button
             class="hover:text-white relative w-24 rounded-md duration-300 ease-in-out transition p-1"

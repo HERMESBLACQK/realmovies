@@ -14,7 +14,7 @@
     class="w-full p-2 bg-dark border-t border-gray-darken text-sm text-primary flex justify-between items-center"
   >
     <p><font-awesome-icon :icon="['far', 'copyright']" /> 2023 HermesMedia.</p>
-    <ul class="flex flex-wrap gap-2">
+    <ul class="flex flex-wrap gap-1">
       <li class="hover:scale-110">
         <button type="button">
           <font-awesome-icon :icon="['fab', 'facebook']" />
