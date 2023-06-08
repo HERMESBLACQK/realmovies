@@ -154,13 +154,16 @@
           </div>
 
           <!-- Player -->
-          <iframe
+          
+          
+          <iframe 
             class="w-full h-full"
             :data-src="filmVideosUrl"
             frameborder="0"
             allowfullscreen="true"
             :src="filmVideosUrl"
           ></iframe>
+          
         </div>
       </div>
     </div>
