@@ -154,6 +154,8 @@
           </div>
 
           <!-- Player -->
+          
+          <video controls>
           <iframe
             class="w-full h-full"
             :data-src="filmVideosUrl"
@@ -161,6 +163,7 @@
             allowfullscreen="true"
             :src="filmVideosUrl"
           ></iframe>
+          </video>
         </div>
       </div>
     </div>
