@@ -20,7 +20,7 @@
           alt=""
         />
         <div class="swiper-lazy-preloader">
-          <img src="../../assets/logo.jpg" alt="" />
+          <img src="../../assets/logo.png" alt="" />
         </div>
         <div
           class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black"

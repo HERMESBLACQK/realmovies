@@ -14,7 +14,7 @@
       <img
         v-else
         class="w-10 h-10 rounded-full object-cover md:w-14 md:h-14"
-        src="../../assets/logo.jpg"
+        src="../../assets/logo.png"
         alt="cast.name"
       />
       <div class="flex flex-col gap-2">

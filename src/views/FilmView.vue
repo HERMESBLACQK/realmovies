@@ -3,7 +3,7 @@
     <AsyncFilmView />
     <template #fallback>
       <div class="flex w-full h-full justify-center items-center">
-        <img class="animate-spin w-20 h-20" src="../assets/logo.jpg" alt="" />
+        <img class="animate-spin w-20 h-20" src="../assets/logo.png" alt="" />
       </div>
     </template>
   </Suspense>

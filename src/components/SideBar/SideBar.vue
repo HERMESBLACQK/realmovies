@@ -30,7 +30,7 @@
       :to="{ name: 'HomeView' }"
       class="uppercase text-white md:flex hidden items-center space-x-3 justify-center mt-10"
     >
-      <img class="w-8 h-8" src="../../assets/logo.jpg" alt="logo" />
+      <img class="w-8 h-8" src="../../assets/logo.png" alt="logo" />
       <span class="text-2xl font-semibold">
         <span class="text-white">Real</span>
         <span class="text-primary">Streams</span>

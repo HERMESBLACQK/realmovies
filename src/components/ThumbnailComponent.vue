@@ -34,7 +34,7 @@
 import { useRouter } from "vue-router";
 import { useGeneralStore } from "../stores/GeneralStore";
 import { ref } from "vue";
-import logoImg from '../assets/logo.jpg'
+import logoImg from '../assets/logo.png'
 const props = defineProps(["film"]);
 const router = useRouter();
 const generalStore = useGeneralStore();
