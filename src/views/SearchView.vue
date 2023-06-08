@@ -1,6 +1,10 @@
 <template>
   <div class="w-full">
     <div class="mx-auto mt-10 w-3/5 text-center">
+
+<div id="container-828cbea806e21cb0f1382af69181706b"></div>
+
+
       <label for="searchQuery" class="text-gray-lighten text-xl"
         >Find your favourite movies, TV shows, people and more
       </label>
