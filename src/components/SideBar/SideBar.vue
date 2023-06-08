@@ -82,12 +82,12 @@ const menus = ref([
     current: false,
     icon: `fa-solid fa-compass`,
   },
-  {
-    name: "Search",
-    to: { name: "SearchView" },
-    current: false,
-    icon: `fa-solid fa-magnifying-glass`,
-  },
+  // {
+  //   name: "Search",
+  //   to: { name: "SearchView" },
+  //   current: false,
+  //   icon: `fa-solid fa-magnifying-glass`,
+  // },
   // {
   //   name: "Profile",
   //   to: { name: "ProfileView" },
