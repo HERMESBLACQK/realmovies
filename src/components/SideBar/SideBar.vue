@@ -4,8 +4,9 @@
     <RouterLink
       :to="{ name: 'HomeView' }"
       class="block py-2 px-3 md:p-4 text-white font-bold uppercase"
-      ><span class="font-semibold">
+      >
       <img class="w-8 h-8" src="../../assets/logo.png" alt="logo" />
+      <span class="font-semibold">
 
         <span class="text-white">Real</span>
         <span class="text-primary">Streams</span>
