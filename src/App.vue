@@ -2,7 +2,6 @@
   <div class="relative min-h-screen md:flex font-sourcesanspro bg-dark">
     <!-- Nav -->
     <SideBar />
-<div id="container-828cbea806e21cb0f1382af69181706b"></div>
 
     <!-- content -->
     <main class="flex-1 min-w-0 min-h-screen border-l border-gray-darken">
@@ -38,7 +37,6 @@
       </li>
     </ul>
   </footer>
-<div id="container-828cbea806e21cb0f1382af69181706b"></div>
 
 
 </template>
