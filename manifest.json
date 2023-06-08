@@ -38,8 +38,13 @@
       "sizes": "500x500"
     },
     {
+      "src": "/assets/logo.a4919f91.png",
+      "type": "image/png",
+      "sizes": "any"
+    },
+    {
       "src": "/favicon.ico",
-      "type": "any"
+      "type": "image/x-icon"
     }
   ],
   "shortcuts": [
