@@ -162,7 +162,7 @@
             frameborder="0"
             allowfullscreen="true"
             :src="filmVideosUrl"
-          ></vide>
+          ></video>
           
         </div>
       </div>
