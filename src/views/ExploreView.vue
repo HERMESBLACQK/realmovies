@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-10 w-11/12 px-2">
+  <div class="mx-auto mt-8 w-11/12 px-2">
     <section>
       <div class="flex text-gray-lighten gap-2">
         <button
@@ -47,7 +47,7 @@
     </section>
     
     <section ref="filmList">
-      <ul class="result--section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 md:gap-5" v-if="films.length">
+      <ul class="result--section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 md:gap-5 pb-8" v-if="films.length">
         <li v-for="film in films" :key="film" class="mt-14">
           <ThumbnailComponent :film="film"></ThumbnailComponent>
         </li>

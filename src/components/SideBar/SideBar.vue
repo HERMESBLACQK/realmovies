@@ -10,8 +10,10 @@
 
         <span class="text-white">Real</span>
         <span class="text-primary">Streams</span>
-      </span></RouterLink
+      </span>
+      </RouterLink
     >
+   
     <!-- button -->
     <button
       class="py-2 px-3 md:p-4 focus:outline-none focus:bg-gray-700"
@@ -39,6 +41,7 @@
         <span class="text-primary">Streams</span>
       </span>
     </RouterLink>
+ 
     <!-- nav  -->
     <nav class="">
       <!-- menu -->
@@ -100,11 +103,5 @@ const route = useRoute();
 </script>
 
 <style lang="scss" scoped>
-// .router-active-class {
-//   border-right-width: 4px;
-//   --tw-border-opacity: 1;
-//   border-color: rgb(81 121 255 / var(--tw-border-opacity));
-//   --tw-text-opacity: 1;
-//   color: rgb(81 121 255 / var(--tw-text-opacity));
-// }
+
 </style>

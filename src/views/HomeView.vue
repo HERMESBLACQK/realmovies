@@ -26,12 +26,18 @@
           </button>
         </div>
         <!-- User Image -->
-        <!-- <div class="flex gap-4 items-center">
-          <img
-            class="h-10 w-10 rounded-full" 
-            src="../assets/me.jpg" contain
-          />
-        </div> -->
+        <div class="flex gap-4 items-center" v-for="menu in menus" :key="menu">
+          <RouterLink  :to="menu.to"
+          active-class="text-black border-r-2 border-primary bg-gradient-to-r from-transparent to-primary"
+          class="flex justify-center space-x-5  text-xlg items-center hover:text-primary cursor-pointer" >
+          <v-btn class="bg-primary text-center px-8 hover:text-white relative w-32 rounded-md duration-300 ease-in-out transition p-2">
+
+            <span>{{ menu.name }}</span>
+          </v-btn>
+
+          </RouterLink>
+       
+        </div>
       </div>
 
       
@@ -106,11 +112,29 @@
 </template>
 
 <script setup>
+
 import HomeSwiper from "../components/Swiper/HomeSwiper.vue";
 import ListSwiper from "../components/Swiper/ListSwiper.vue";
 import { computed, ref } from "vue";
 import { useGeneralStore } from "../stores/GeneralStore";
+import {  watch } from "vue";
+import { useRouter, useRoute } from "vue-router";
 
+const menus = ref([
+
+  {
+    name: "Search",
+    to: { name: "SearchView" },
+    current: false,
+    icon: `fa-solid fa-magnifying-glass`,
+  }
+  // {
+  //   name: "Profile",
+  //   to: { name: "ProfileView" },
+  //   current: false,
+  //   icon: `fa-solid fa-circle-user`,
+  // },
+]);
 const renderKey = ref(0);
 const forceRerender = () => {
   renderKey.value += 1;
