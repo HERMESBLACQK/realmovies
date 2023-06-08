@@ -11,28 +11,40 @@
     <!-- Footer -->
   </div>
   <footer
-    class="w-full p-2 bg-dark border-t border-gray-darken text-sm text-primary flex justify-between items-center mt-0"
+    class="foot w-full p-2 bg-dark border-t border-gray-darken text-sm text-primary flex justify-between items-center mt-0 outline-2"
   >
     <p><font-awesome-icon :icon="['far', 'copyright']" /> 2023 HermesMedia.</p>
-    <ul class="flex flex-wrap gap-1">
+    <ul class="flex flex-wrap gap-1 border-primary outline-2 px-4 py-2">
       <li class="hover:scale-110">
-        <button type="button">
-          <font-awesome-icon :icon="['fab', 'facebook']" />
+        <button type="button" class="text-2xl mx-2">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+
+            <font-awesome-icon :icon="['fab', 'facebook']" />
+          </a>
+
         </button>
       </li>
       <li class="hover:scale-110">
-        <button type="button">
-          <font-awesome-icon :icon="['fab', 'twitter']" />
+        <button type="button" class="text-2xl mx-2">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <font-awesome-icon :icon="['fab', 'twitter']" />
+          </a>
         </button>
       </li>
       <li class="hover:scale-110">
-        <button type="button">
+        <button type="button" class="text-2xl mx-2">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <font-awesome-icon :icon="['fab', 'instagram']" />
+        </a>
         </button>
       </li>
       <li class="hover:scale-110">
-        <button type="button">
-          <font-awesome-icon :icon="['fab', 'github']" />
+        <button type="button" class="text-2xl mx-2">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+
+            <font-awesome-icon :icon="['fab', 'github']" />
+          </a>
+
         </button>
       </li>
     </ul>
@@ -74,4 +86,12 @@ const currentFilmType = generalStore.currentFilmType;
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@media (max-width: 1000px) {
+  .foot{
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+}
+
 </style>
