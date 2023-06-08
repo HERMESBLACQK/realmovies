@@ -155,15 +155,15 @@
 
           <!-- Player -->
           
-          <video controls>
+          
           <iframe
             class="w-full h-full"
             :data-src="filmVideosUrl"
             frameborder="0"
             allowfullscreen="true"
             :src="filmVideosUrl"
-          ></iframe>
-          </video>
+          controls></iframe>
+          
         </div>
       </div>
     </div>
