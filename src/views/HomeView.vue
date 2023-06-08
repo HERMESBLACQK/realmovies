@@ -34,6 +34,10 @@
         </div> -->
       </div>
 
+      
+<div id="container-828cbea806e21cb0f1382af69181706b"></div>
+
+
       <!-- carousel -->
       <div class="mt-5 relative !px-2">
         <HomeSwiper :key="renderKey" />
@@ -68,6 +72,8 @@
         </Suspense>
       </div>
 
+<div id="container-828cbea806e21cb0f1382af69181706b"></div>
+
       <!-- Top Rated -->
       <div class="mt-10 relative">
         <div class="text-white md:text-2xl px-2">
@@ -80,6 +86,8 @@
           </template>
         </Suspense>
       </div>
+
+<div id="container-828cbea806e21cb0f1382af69181706b"></div>
 
       <!-- Popular-->
       <div class="my-10 relative">
