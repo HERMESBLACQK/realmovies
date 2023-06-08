@@ -30,7 +30,8 @@
           <RouterLink  :to="menu.to"
           active-class="text-black border-r-2 border-primary bg-gradient-to-r from-transparent to-primary"
           class="flex justify-center space-x-5  text-xlg items-center hover:text-primary cursor-pointer" >
-          <v-btn class="bg-primary text-center px-8 hover:text-white relative w-32 rounded-md duration-300 ease-in-out transition p-2">
+          <v-btn class="bg-primary text-center px-8 hover:text-white relative w-24
+           rounded-md duration-300 ease-in-out transition p-2">
 
             <span>{{ menu.name }}</span>
           </v-btn>
