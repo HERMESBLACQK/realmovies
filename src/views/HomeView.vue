@@ -150,4 +150,16 @@ const changeCurrentFilmType = (type) => {
   generalStore.changeCurrentFilmType(type);
   forceRerender();
 };
+const lightmode =  ({
+  isLightMode: true,
+  computed: {
+    themeClass() {
+      return this.isLightMode ? 'light-mode' : 'dark-mode';
+    },
+}
+  
+  
+});
+
+  
 </script>

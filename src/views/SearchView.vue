@@ -102,6 +102,7 @@
         @update:current-page="getNewPage"
       />
     </section>
+ 
   </div>
 </template>
 
@@ -203,6 +204,12 @@ const getNewPage = async (page) => {
     console.log("a");
   }
 };
+
+// search history
+
+
+
+
 </script>
 
 <style lang="scss" scoped></style>

@@ -161,8 +161,9 @@
             :data-src="filmVideosUrl"
             frameborder="0"
             allowfullscreen="true"
+            
             :src="filmVideosUrl"
-          ></iframe>
+       ></iframe>
           
         </div>
       </div>

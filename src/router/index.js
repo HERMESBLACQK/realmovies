@@ -25,6 +25,7 @@ const routes = [
     name: "SearchView",
     component: SearchView,
   },
+
   {
     path: "/bookmarked",
     name: "BookmarkedView",

@@ -83,7 +83,7 @@ const menus = ref([
     icon: `fa-solid fa-compass`,
   },
   // {
-  //   name: "Search",
+  //   name: "History",
   //   to: { name: "SearchView" },
   //   current: false,
   //   icon: `fa-solid fa-magnifying-glass`,

@@ -1,4 +1,8 @@
 <template>
+  <div class="light-mode">
+    <!-- Your web page content goes here -->
+
+  
   <div class="relative min-h-screen md:flex font-sourcesanspro bg-dark">
     <!-- Nav -->
     <SideBar />
@@ -26,7 +30,7 @@
       </li>
       <li class="hover:scale-110">
         <button type="button" class="text-2xl mx-2">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/i/communities/1667143109849886720" target="_blank" rel="noopener noreferrer">
             <font-awesome-icon :icon="['fab', 'twitter']" />
           </a>
         </button>
@@ -49,7 +53,7 @@
       </li>
     </ul>
   </footer>
-
+</div>
 
 </template>
 
@@ -59,11 +63,14 @@ import { useGeneralStore } from "./stores/GeneralStore";
 import { useRoute, useRouter } from "vue-router";
 import { computed } from "vue";
 
+
+
 const router = useRouter();
 const route = useRoute();
 
 const generalStore = useGeneralStore();
 const currentFilmType = generalStore.currentFilmType;
+
 </script>
 
 <style lang="scss">
@@ -92,6 +99,22 @@ const currentFilmType = generalStore.currentFilmType;
     justify-content: space-between;
   
   }
+}
+.light-mode {
+  background-color: black;
+}
+
+.light-mode :root {
+  --primary-color: #ffd80e;
+}
+
+/* Customize other elements using the primary color */
+.light-mode h1 {
+  color: var(--primary-color);
+}
+
+.light-mode a {
+  color: var(--primary-color);
 }
 
 </style>
