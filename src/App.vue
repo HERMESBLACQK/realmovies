@@ -21,7 +21,7 @@
     <ul class="flex flex-wrap gap-1 border-primary outline-2 px-4 py-2">
       <li class="hover:scale-110">
         <button type="button" class="text-2xl mx-2">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/lilhenxy.omotosho.9/" target="_blank" rel="noopener noreferrer">
 
             <font-awesome-icon :icon="['fab', 'facebook']" />
           </a>
@@ -37,14 +37,14 @@
       </li>
       <li class="hover:scale-110">
         <button type="button" class="text-2xl mx-2">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/dokitor_blacqk?igshid=ZGUzMzM3NWJiOQ==" target="_blank" rel="noopener noreferrer">
           <font-awesome-icon :icon="['fab', 'instagram']" />
         </a>
         </button>
       </li>
       <li class="hover:scale-110">
         <button type="button" class="text-2xl mx-2">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/HERMESBLACQK?tab=repositories" target="_blank" rel="noopener noreferrer">
 
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>

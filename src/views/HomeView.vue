@@ -43,7 +43,7 @@
 
       
 <!-- <div id="container-828cbea806e21cb0f1382af69181706b"></div> -->
-
+<button @click="toggleMode"> Light Mode</button>
 
       <!-- carousel -->
       <div class="mt-5 relative !px-2">
@@ -120,6 +120,8 @@ import { computed, ref } from "vue";
 import { useGeneralStore } from "../stores/GeneralStore";
 import {  watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
+import {  onMounted } from 'vue';
+import { toggleLightMode, initializeLightMode } from "../components/Utils/lightMode";
 
 const menus = ref([
 
@@ -161,5 +163,24 @@ const lightmode =  ({
   
 });
 
+// setup(); {
+//     const toggleMode = () => {
+//       toggleLightMode();
+//     };
+
+//     onMounted(() => {
+//       initializeLightMode();
+//       return {
+//       toggleMode,
+//     }
+//     });
+
   
+//   };
 </script>
+<style>
+.light-mode {
+  background-color: white;
+  color: black;
+}
+</style>
