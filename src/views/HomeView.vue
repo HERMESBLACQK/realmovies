@@ -117,7 +117,6 @@ import { useGeneralStore } from "../stores/GeneralStore";
 import {  watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import {  onMounted } from 'vue';
-import { toggleLightMode, initializeLightMode } from "../components/Utils/lightMode";
 
 const menus = ref([
 

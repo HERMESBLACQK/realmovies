@@ -51,6 +51,9 @@
 
         </button>
       </li>
+      <button @click="toggleLightMode" class="toggle-button">
+        {{ isLightMode ? 'Dark Mode' : 'Light Mode' }}
+      </button>
     </ul>
   </footer>
 </div>
@@ -62,6 +65,23 @@ import SideBar from "/src/components/SideBar/SideBar.vue";
 import { useGeneralStore } from "./stores/GeneralStore";
 import { useRoute, useRouter } from "vue-router";
 import { computed } from "vue";
+import { ref } from 'vue';
+
+
+
+const isLightMode = ref(true);
+
+// Function to toggle light mode
+const toggleLightMode = () => {
+  isLightMode.value = !isLightMode.value;
+
+  // Apply light or dark mode styles to the entire app or specific elements
+  if (isLightMode.value) {
+    document.documentElement.classList.add('light-mode');
+  } else {
+    document.documentElement.classList.remove('light-mode');
+  }
+};
 
 
 
@@ -71,9 +91,15 @@ const route = useRoute();
 const generalStore = useGeneralStore();
 const currentFilmType = generalStore.currentFilmType;
 
+
 </script>
 
 <style lang="scss">
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

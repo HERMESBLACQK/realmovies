@@ -15,7 +15,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@vercel/analytics": "^1.0.1",
-    "@vueuse/core": "^9.4.0",
+    "@vueuse/core": "^9.13.0",
     "axios": "^0.27.2",
     "pinia": "^2.0.18",
     "swiper": "^8.3.2",
@@ -31,23 +31,23 @@
     "@vitejs/plugin-vue": "^3.0.3",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
-    "sass": "^1.55.0",
+    "sass": "^1.63.3",
+    "sass-loader": "^13.3.2",
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.7"
   },
   "icons": [
-  {
+    {
       "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
-  },
-  {
+    },
+    {
       "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-  }
-]
-
+    }
+  ]
 }
