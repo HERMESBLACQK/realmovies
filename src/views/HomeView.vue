@@ -42,8 +42,6 @@
       </div>
 
       
-<!-- <div id="container-828cbea806e21cb0f1382af69181706b"></div> -->
-<button @click="toggleMode"> Light Mode</button>
 
       <!-- carousel -->
       <div class="mt-5 relative !px-2">
@@ -79,7 +77,6 @@
         </Suspense>
       </div>
 
-<!-- <div id="container-828cbea806e21cb0f1382af69181706b"></div> -->
 
       <!-- Top Rated -->
       <div class="mt-10 relative">
@@ -94,7 +91,6 @@
         </Suspense>
       </div>
 
-<!-- <div id="container-828cbea806e21cb0f1382af69181706b"></div> -->
 
       <!-- Popular-->
       <div class="my-10 relative">
@@ -152,31 +148,9 @@ const changeCurrentFilmType = (type) => {
   generalStore.changeCurrentFilmType(type);
   forceRerender();
 };
-const lightmode =  ({
-  isLightMode: true,
-  computed: {
-    themeClass() {
-      return this.isLightMode ? 'light-mode' : 'dark-mode';
-    },
-}
-  
-  
-});
 
-// setup(); {
-//     const toggleMode = () => {
-//       toggleLightMode();
-//     };
 
-//     onMounted(() => {
-//       initializeLightMode();
-//       return {
-//       toggleMode,
-//     }
-//     });
 
-  
-//   };
 </script>
 <style>
 .light-mode {
