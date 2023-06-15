@@ -2,11 +2,11 @@
   <div class="light-mode">
     <!-- Your web page content goes here -->
 
-    <div class="notice bg-gray-darken p-3 text-center">
+    <!-- <div class="notice bg-gray-darken p-3 text-center">
 <div class="content bg-white w-84 p-3 text-center text-xl">
 <h3>Dear streamers we are currently working on our database and we asure you the process will not take more than few hours to rectify</h3>
 </div>
-    </div>
+    </div> -->
   <div class="relative min-h-screen md:flex font-sourcesanspro bg-dark">
     <!-- Nav -->
     <SideBar />
