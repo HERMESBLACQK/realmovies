@@ -2,12 +2,18 @@
   <div class="light-mode">
     <!-- Your web page content goes here -->
 
-  
+    <div class="notice bg-gray-darken p-3 text-center">
+<div class="content bg-white w-84 p-3 text-center text-xl">
+<h3>Dear streamers we are currently working on our database and we asure you the process will not take more than few hours to rectify</h3>
+</div>
+    </div>
   <div class="relative min-h-screen md:flex font-sourcesanspro bg-dark">
     <!-- Nav -->
     <SideBar />
 
     <!-- content -->
+    <!-- notice -->
+   
     <main class="flex-1 min-w-0 min-h-screen border-l border-gray-darken">
       <router-view :key="route.fullPath"></router-view>
     </main>
@@ -51,9 +57,7 @@
 
         </button>
       </li>
-      <button @click="toggleLightMode" class="toggle-button">
-        {{ isLightMode ? 'Dark Mode' : 'Light Mode' }}
-      </button>
+   
     </ul>
   </footer>
 </div>

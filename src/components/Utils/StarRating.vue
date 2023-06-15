@@ -1,12 +1,12 @@
 <template>
-  <div class="star-rating inline-block relative">
+  <div class="star-rating inline-block relative text-primary">
     <span>&star;</span>
     <span>&star;</span>
     <span>&star;</span>
     <span>&star;</span>
     <span>&star;</span>
     <div
-      class="star-rating_current absolute top-0 overflow-hidden"
+      class="star-rating_current absolute top-0 overflow-hidden text-primary"
       :style="getFilmRating"
     >
       <span>&starf;</span>

@@ -82,7 +82,7 @@
 
     <!-- Results section -->
     <section class="mb-10 mt-5 w-5/6 mx-auto">
-      <h1 class="-mb-10 text-center text-xl bg-primary" v-if="listResults.length">
+      <h1 class="text-white  -mb-10 text-center text-xl bg-primary" v-if="listResults.length">
         {{ totalResult }} results found
       </h1>
       <ul
