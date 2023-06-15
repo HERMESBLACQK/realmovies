@@ -191,13 +191,8 @@ const apiKey = import.meta.env.VITE_TMDB_API_KEY;
 const filmUrl = `https://api.themoviedb.org/3/${route.params.filmType}/${route.params.id}?api_key=${apiKey}`;
 const filmVideosUrl = computed(() => {
   let url = "";
-<<<<<<< HEAD
   if (route.params.filmType == "movie") {
     url = `https://www.2embed.cc/embed/${route.params.id}`;
-=======
-  if (route.params.jfilmType == "movie") {
-    url = `https://www.2embed.cc/embed/tmdb/movie?id=${route.params.id}`;
->>>>>>> 5640a9f34eecd8a5914833f27bc2918e99308edf
     console.log(url);
   } else if (route.params.filmType == "tv") {
     url = `https://www.2embed.cc/embed/${route.params.id}&s=${currentSeason.value}&e=${currentEpisode.value}`;
